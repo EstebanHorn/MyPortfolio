@@ -64,7 +64,7 @@ export default function Contact() {
             </Link>
             <Link
               className="bg-slate-50 flex gap-5 items-center group hover:scale-105 hover:-translate-y-2 transition-all duration-300"
-              href="www.linkedin.com/in/esteban-horn-907a98206"
+              href="https://www.linkedin.com/in/esteban-horn-907a98206"
             >
               <div className="bg-slate-100 h-full p-4">
                 <AiOutlineLinkedin className=" text-5xl group-hover:text-cyan-600 transition-all duration-200" />
