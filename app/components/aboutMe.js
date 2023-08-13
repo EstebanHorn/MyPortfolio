@@ -13,7 +13,7 @@ import {
 
 export default function AboutMe() {
   return (
-    <main className="w-full  md:gap-10 gap-5  md:h-screen md:p-10 md:mb-0 mb-10 p-5" id="aboutMe">
+    <main className="w-full  md:gap-10 gap-5  md:h-screen md:p-10 md:my-0 my-10 p-5" id="aboutMe">
       <section className="flex md:flex-row flex-col gap-10">
         <div className="md:w-2/3 flex flex-col gap-2">
           <h1 className="text-6xl py-2 font-bold text-left">
@@ -42,7 +42,7 @@ export default function AboutMe() {
             <h2 className="text-2xl">I always strive to be up to date</h2>
           </div>
 
-          <ul className="grid grid-cols-3 gap-4 text-5xl w-full mt-5">
+          <ul className="grid grid-cols-3 gap-4 md:text-5xl text-3xl w-full mt-5">
             <li className="m-auto md:m-0">
               <FaReact className="hover:text-teal-600 hover:scale-110 duration-200 transition-all" />
             </li>
@@ -77,11 +77,11 @@ export default function AboutMe() {
         </div>
       </section>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-10 md:mt-0">
         <h1 className="text-6xl py-2 font-bold text-left text-violet-800">
           Services
         </h1>
-        <h3 className="font-bold">
+        <h3 className="font-bold md:text-base text-sm">
           Unique web experiences, designed just for you
         </h3>
       </div>
@@ -94,7 +94,7 @@ export default function AboutMe() {
             <MdSignalCellularAlt1Bar className="text-xl" />
           </div>
 
-          <p className="mt-5" style={{ textWrap: "balance" }}>
+          <p className="mt-5 md:text-base text-sm " style={{ textWrap: "balance" }}>
             Boost your online presence with an engaging and effective landing
             page that captures the attention of your visitors and guides them to
             the action you want.
@@ -109,7 +109,7 @@ export default function AboutMe() {
             <MdSignalCellularAlt2Bar className="text-xl" />
           </div>
 
-          <p className="mt-5" style={{ textWrap: "balance" }}>
+          <p className="mt-5 md:text-base text-sm" style={{ textWrap: "balance" }}>
             Boost your brand with a complete website. Present your history,
             services and news. Convert visitors into customers while optimizing
             the user experience.{" "}
@@ -123,7 +123,7 @@ export default function AboutMe() {
             <MdSignalCellularAlt className="text-xl" />
           </div>
 
-          <p className="mt-5" style={{ textWrap: "balance" }}>
+          <p className="mt-5 md:text-base text-sm" style={{ textWrap: "balance" }}>
             Take your site to the next level. Dynamic interaction, user
             authentication and custom functionality. Turn ideas into reality
             with powerful web capabilities.

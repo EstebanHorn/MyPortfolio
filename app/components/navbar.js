@@ -8,8 +8,8 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="md:h-[50%] w-full bottom-0 md:bottom-auto bg-violet-800 fixed md:right-5 md:top-[25%] md:w-11 md:rounded-3xl md:py-10 px-1 text-white">
-      <ul className="flex md:flex-col flex-row items-center gap-10 justify-around text-xl h-full">
+    <nav className="md:h-[50%] w-[90%] right-[5%] bottom-3 md:bottom-auto bg-violet-800 fixed md:right-5 md:top-[25%] md:w-11 rounded-3xl md:py-10 px-5 text-white">
+      <ul className="flex md:flex-col flex-row items-center md:gap-10 gap-2 justify-around text-xl h-full">
         <li className="w-full">
           <a
             className="hover:bg-violet-500 transition-all duration-200 w-full p-2 rounded-full flex justify-center"

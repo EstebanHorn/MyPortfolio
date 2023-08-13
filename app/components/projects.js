@@ -8,14 +8,14 @@ import Link from "next/link";
 export default function Porojects() {
   return (
     <section
-      className="w-full flex flex-col md:h-screen md:p-10 md:pr-20 md:gap-20 p-5 gap-5 md:mt-0 mt-10"
+      className="w-full flex flex-col md:h-screen md:p-10 md:pr-20 md:gap-20 p-5 gap-10 md:my-0 my-10"
       id="projects"
     >
-      <h1 className="text-6xl ">
+      <h1 className="md:text-6xl text-5xl">
         My <tag className="text-violet-800 font-bold">projects</tag> &{" "}
         <tag className="text-violet-800 font-bold">Works</tag>
       </h1>
-      <section className="w-full grid md:grid-cols-3 md:gap-8 gap-5">
+      <section className="w-full grid md:grid-cols-3 gap-8">
         <Link href="https://weatherkorn.web.app/" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
           <h2 className="text-xl font-bold group-hover:text-violet-800 transition-all duration-200">Weather App</h2>
           <Image src={weather} className="h-full object-cover"/>

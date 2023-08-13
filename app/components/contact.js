@@ -41,10 +41,10 @@ export default function Contact() {
   };
   return (
     <section
-      className="w-full flex flex-col items-center md:h-screen md:p-10 md:pr-20 p-5 md:m-0 pb-16"
+      className="w-full flex flex-col items-center md:h-screen md:p-10 md:pr-20 p-5 md:my-0 my-16"
       id="contact"
     >
-      <h1 className="text-6xl font-bold">
+      <h1 className="text-6xl font-bold md:text-right text-center">
         Connect whit <tag className="text-violet-800">me</tag>
       </h1>
       <div className="flex md:flex-row flex-col w-full justify-around mt-16">
@@ -101,13 +101,13 @@ export default function Contact() {
           </div>
         </section>
         <section className="md:w-1/2 md:mt-0 mt-10 flex flex-col items-center justify-center">
-          <h2 className="font-bold text-4xl">Send me a message</h2>
+          <h2 className="font-bold md:text-4xl text-3xl">Send me a message</h2>
           <form
             className="flex flex-col gap-5 mt-5 w-full"
             ref={form}
             onSubmit={sendEmail}
           >
-            <label className="flex flex-col text-lg font-bold gap-1">
+            <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Full Name
               <input
                 name="nombre"
@@ -115,7 +115,7 @@ export default function Contact() {
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
               />
             </label>
-            <label className="flex flex-col text-lg font-bold gap-1">
+            <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Email
               <input
                 name="email"
@@ -123,7 +123,7 @@ export default function Contact() {
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
               />
             </label>
-            <label className="flex flex-col text-lg font-bold gap-1">
+            <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Message
               <input
                 type="text"
