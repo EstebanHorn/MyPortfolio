@@ -108,7 +108,7 @@ export default function Contact() {
             onSubmit={sendEmail}
           >
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
-              Full Name
+              Name
               <input
               required
                 name="nombre"

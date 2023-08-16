@@ -8,7 +8,7 @@ export default function Header() {
         Im <tag className="text-violet-800 font-bold">Esteban</tag>
       </h2>
       <h4 className="md:text-xl text-sm bg-violet-800 p-1 text-white">
-        Full stack developer
+        FullStack developer
       </h4>
       <p className="md:mt-10 mt-5 md:line-clamp-none line-clamp-3 md:text-base text-sm" style={{textWrap: 'balance'}}>
         I am a Full Stack Web Developer with a passion for
