@@ -110,6 +110,7 @@ export default function Contact() {
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Full Name
               <input
+              required
                 name="nombre"
                 type="text"
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
@@ -118,6 +119,7 @@ export default function Contact() {
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Email
               <input
+              required
                 name="email"
                 type="email"
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
@@ -126,6 +128,7 @@ export default function Contact() {
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Message
               <input
+              required
                 type="text"
                 name="mensaje"
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
