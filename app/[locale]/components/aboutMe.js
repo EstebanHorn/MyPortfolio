@@ -1,5 +1,3 @@
-import Image from "next/image";
-import me from "../assets/yo.jpg";
 import {  AiOutlineGithub } from "react-icons/ai";
 import { SiTailwindcss, SiNextdotjs, SiMysql } from "react-icons/si";
 import { BiLogoMongodb, BiLogoNodejs, BiLogoGoLang } from "react-icons/bi";
@@ -10,36 +8,33 @@ import {
   MdSignalCellularAlt2Bar,
   MdSignalCellularAlt,
 } from "react-icons/md";
+import {useTranslations} from 'next-intl';
+
 
 export default function AboutMe() {
+  const t = useTranslations('AboutMe');
+
   return (
     <main className="w-full  md:gap-10 gap-5  md:h-screen md:p-10 md:my-0 my-10 p-5" id="aboutMe">
-      <section className="flex md:flex-row flex-col gap-10">
+      <section className="flex md:flex-row flex-col gap-14">
         <div className="md:w-2/3 flex flex-col gap-2">
-          <h1 className="text-6xl py-2 font-bold text-left">
-            {" "}
-            About <tag className="text-violet-800">Me </tag>{" "}
+          <h1 className="md:text-6xl text-5xl py-2 font-normal text-left">
+            {t('title.item1')} <tag className="text-violet-800 font-bold">{t('title.item2')}</tag>{" "}
           </h1>
-          <h2 className="text-2xl">
-            Im <tag className="font-bold tracking-wide">Esteban Horn</tag> |
+          <h2 className="md:text-2xl">
+          {t('im')} <tag className="font-bold tracking-wide">Esteban Horn</tag> |
             FullStack Developer
           </h2>
-          <p style={{ textWrap: "balance" }} className="text-left">
-            I have a deep enthusiasm for merging the creativity of React for
-            modern interfaces with the scalable power of Node.js on the backend.
-            With freelance project experience and a collaborative approach, I
-            take on technical and design challenges with determination. I always
-            pursue innovative solutions while keeping up with the latest trends,
-            striving to create exceptional web experiences and contribute to
-            cutting-edge projects.
+          <p style={{ textWrap: "balance" }} className="text-left md:pr-12">
+          {t('about')}
           </p>
         </div>
         <div className="md:w-1/3 flex flex-col items-center gap-2 ">
           <div className="w-full">
-            <h1 className="text-6xl py-2 font-bold text-left text-violet-800">
-              Skills
+            <h1 className="md:text-6xl text-5xl py-2 font-bold text-left text-violet-800">
+            {t('skills.title')}
             </h1>
-            <h2 className="text-2xl">I always strive to be up to date</h2>
+            <h2 className="md:text-2xl">{t('skills.subtitle')}</h2>
           </div>
 
           <ul className="grid grid-cols-3 gap-4 md:text-5xl text-3xl w-full mt-5">
@@ -78,55 +73,54 @@ export default function AboutMe() {
       </section>
 
       <div className="flex flex-col mt-10 md:mt-0">
-        <h1 className="text-6xl py-2 font-bold text-left text-violet-800">
-          Services
+        <h1 className="md:text-6xl text-5xl py-2 font-bold text-left text-violet-800">
+        {t('services.title')}
         </h1>
         <h3 className="font-bold md:text-base text-sm">
-          Unique web experiences, designed just for you
+        {t('services.subtitle')}
         </h3>
       </div>
       <ul className="md:w-2/3 grid md:grid-cols-3 gap-5 mt-10">
         <li className="p-5 group text-left bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-2 transition-all duration-300">
           <div className="w-full flex justify-between">
             <h4 className="text-xl font-bold group-hover:text-violet-800">
-              Simple Page
+            {t('services.plan1.title')}
+
             </h4>
             <MdSignalCellularAlt1Bar className="text-xl" />
           </div>
 
           <p className="mt-5 md:text-base text-sm " style={{ textWrap: "balance" }}>
-            Boost your online presence with an engaging and effective landing
-            page that captures the attention of your visitors and guides them to
-            the action you want.
+          {t('services.plan1.description')}
+
           </p>
         </li>
 
         <li className="p-5 group text-left bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-2 transition-all duration-300">
           <div className="w-full flex justify-between">
             <h4 className="text-xl font-bold group-hover:text-violet-800">
-              Medium Page
+            {t('services.plan2.title')}
+
             </h4>
             <MdSignalCellularAlt2Bar className="text-xl" />
           </div>
 
           <p className="mt-5 md:text-base text-sm" style={{ textWrap: "balance" }}>
-            Boost your brand with a complete website. Present your history,
-            services and news. Convert visitors into customers while optimizing
-            the user experience.{" "}
+          {t('services.plan2.description')}
+
           </p>
         </li>
         <li className="p-5 group text-left bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-2 transition-all duration-300">
           <div className="w-full flex justify-between">
             <h4 className="text-xl font-bold group-hover:text-violet-800">
-              Advanced Page
+            {t('services.plan3.title')}
             </h4>
             <MdSignalCellularAlt className="text-xl" />
           </div>
 
           <p className="mt-5 md:text-base text-sm" style={{ textWrap: "balance" }}>
-            Take your site to the next level. Dynamic interaction, user
-            authentication and custom functionality. Turn ideas into reality
-            with powerful web capabilities.
+          {t('services.plan3.description')}
+
           </p>
         </li>
       </ul>

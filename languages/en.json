@@ -1,0 +1,66 @@
+{
+    "Header": {
+      "greeting": "Hi there",
+      "im": "I'm",
+      "description": "I'm a passionate Full Stack web developer with a drive to learn and apply my skills. I am highly focused and adaptable, dedicated to delivering high-quality solutions that meet the unique needs of each project. I am eager to further develop my skills and grow professionally in the IT industry."
+    },
+    "AboutMe": {
+      "title": {
+        "item1": "About",
+        "item2": "Me"
+      },
+      "im": "I'm",
+      "about": "I have a deep enthusiasm for combining React's creativity for modern interfaces with the scalable power of Node.js on the backend. With experience in freelance projects and a collaborative approach, I tackle technical and design challenges with determination. I always seek innovative solutions while staying up-to-date with the latest trends, striving to create exceptional web experiences and contribute to cutting-edge projects.",
+      "skills": {
+        "title": "Skills",
+        "subtitle": "I always strive to stay up-to-date"
+      },
+      "services": {
+        "title": "Services",
+        "subtitle": "Unique web experiences, designed just for you",
+        "plan1": {
+          "title": "Simple Page",
+          "description": "Boost your online presence with an attractive and effective landing page that captures your visitors' attention and guides them towards the desired action."
+        },
+        "plan2": {
+          "title": "Medium Page",
+          "description": "Elevate your brand with a comprehensive website. Showcase your story, services, and updates. Convert visitors into customers while optimizing the user experience."
+        },
+        "plan3": {
+          "title": "Advanced Page",
+          "description": "Take your website to the next level. Dynamic interaction, user authentication, and custom functionality. Turn ideas into reality with powerful web capabilities."
+        }
+      }
+    },
+    "Formation": {
+      "title": {
+        "item1": "My",
+        "item2": "Education"
+      },
+      "description": {
+        "item1": "My professional education is progressing at",
+        "item2": ", where I'm pursuing a bachelor's degree in Systems Engineering. Through this educational path, I am gaining essential skills to tackle the ever-evolving challenges in the field of technology and computing."
+      },
+      "courses": {
+        "title": "Courses",
+        "course1": "It is a national and federal program aimed at training individuals in programming languages, testing, and digital skills to enhance employability in the software and technology sector.",
+        "course2": "This Go course on Udemy starts from scratch and covers a wide range of topics, from language fundamentals to building web applications and implementing microservices. The course also includes creating command-line applications and managing databases.",
+        "course3": "I acquired practical skills in distribution installation and fundamental concepts such as regular expressions, bash scripting, and Linux environment tools for data manipulation and task automation.",
+        "certificate": "Certificate"
+      }
+    },
+    "Projects": {
+      "projects": "projects",
+      "works": "works",
+      "my": "My"
+    },
+    "Contact": {
+      "title1" : "Connect whit",
+      "title2" : "me",
+      "subtitle": "Send me a message",
+      "name": "Name",
+      "message": "Message",
+      "send": "Send"
+    }
+  }
+  

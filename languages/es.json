@@ -1,0 +1,65 @@
+{
+  "Header": {
+    "greeting": "Hola",
+    "im": "Yo soy",
+    "description": "Soy un desarrollador web Full Stack con pasión por aprender y aplicar mis conocimientos. Soy altamente enfocado y adaptable, con dedicación para entregar soluciones de alta calidad que satisfagan las necesidades únicas de cada proyecto. Estoy ansioso por desarrollar aún más mis habilidades y crecer profesionalmente en la industria de TI."
+  },
+  "AboutMe": {
+    "title": {
+      "item1": "Sobre",
+      "item2": "Mí"
+    },
+    "im": "Yo soy",
+    "about": "Tengo un profundo entusiasmo por fusionar la creatividad de React para interfaces modernas con el poder escalable de Node.js en el backend. Con experiencia en proyectos independientes y un enfoque colaborativo, asumo los desafíos técnicos y de diseño con determinación. Siempre busco soluciones innovadoras mientras me mantengo al día con las últimas tendencias, esforzándome por crear experiencias web excepcionales y contribuir a proyectos de vanguardia.",
+    "skills": {
+      "title": "Habilidades",
+      "subtitle": "Siempre me esfuerzo por estar al día"
+    },
+    "services": {
+      "title": "Servicios",
+      "subtitle": "Experiencias web únicas, diseñadas solo para ti",
+      "plan1": {
+        "title": "Página Simple",
+        "description": "Impulsa tu presencia en línea con una página de destino atractiva y efectiva que capte la atención de tus visitantes y los guíe hacia la acción que deseas."
+      },
+      "plan2": {
+        "title": "Página Media",
+        "description": "Impulsa tu marca con un sitio web completo. Presenta tu historia, servicios y novedades. Convierte a los visitantes en clientes mientras optimizas la experiencia del usuario."
+      },
+      "plan3": {
+        "title": "Página Avanzada",
+        "description": "Lleva tu sitio al siguiente nivel. Interacción dinámica, autenticación de usuarios y funcionalidad personalizada. Convierte ideas en realidad con potentes capacidades web."
+      }
+    }
+  },
+  "Formation": {
+    "title": {
+      "item1": "Mi",
+      "item2": "Formación"
+    },
+    "description": {
+      "item1": "Mi formación profesional se está desarrollando en",
+      "item2": ", donde estoy persiguiendo una licenciatura en Ingeniería de Sistemas. A través de este camino educativo, estoy adquiriendo las habilidades esenciales para abordar los desafíos en constante evolución en el campo de la tecnología y la informática."
+    },
+    "courses": {
+      "title": "Cursos",
+      "course1": "Es un programa nacional y federal que tiene como objetivo formar personas en lenguajes y conocimientos sobre programación, pruebas y habilidades digitales para mejorar la empleabilidad en el sector del software y la tecnología.",
+      "course2": "Este curso de Go en Udemy parte desde cero y abarca una amplia gama de temas, desde fundamentos del lenguaje hasta la creación de aplicaciones web e implementación de microservicios. El curso también incluye la creación de aplicaciones de línea de comandos y la gestión de bases de datos.",
+      "course3": "Adquirí habilidades prácticas en la instalación de distribuciones y conceptos fundamentales como expresiones regulares, scripting de bash y herramientas del entorno Linux para manipulación de datos y automatización de tareas.",
+      "certificate": "Certificado"
+    }
+  },
+  "Projects": {
+    "projects": "proyectos",
+    "works": "trabajos",
+    "my": "Mis"
+  },
+  "Contact": {
+    "title1" : "Conectate",
+    "title2" : "conmigo",
+    "subtitle": "Envíame un mensaje",
+    "name": "Nombre",
+    "message": "Mensaje",
+    "send": "Enviar"
+  }
+}

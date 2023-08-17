@@ -9,7 +9,7 @@ import {
   AiOutlineMail,
   AiOutlineGithub,
 } from "react-icons/ai";
-export default function Contact() {
+export default function Contact({traslation}) {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -44,8 +44,8 @@ export default function Contact() {
       className="w-full flex flex-col items-center md:h-screen md:p-10 md:pr-20 p-5 md:my-0 my-16"
       id="contact"
     >
-      <h1 className="text-6xl font-bold md:text-right text-center">
-        Connect whit <tag className="text-violet-800">me</tag>
+      <h1 className="md:text-6xl text-5xl font-normal md:text-right text-center">
+        {traslation.Title1}{' '}<tag className="text-violet-800 font-bold">{traslation.Title2}</tag>
       </h1>
       <div className="flex md:flex-row flex-col w-full justify-around mt-16">
         <section className="md:w-1/4">
@@ -82,7 +82,7 @@ export default function Contact() {
                 <AiOutlineMail className=" text-5xl group-hover:text-red-700 transition-all duration-200" />
               </div>
               <div>
-                <p className="font-bold">Email Adress</p>
+                <p className="font-bold">Email</p>
                 <p>estebanhxrn@gmail.com</p>
               </div>
             </Link>
@@ -101,14 +101,14 @@ export default function Contact() {
           </div>
         </section>
         <section className="md:w-1/2 md:mt-0 mt-10 flex flex-col items-center justify-center">
-          <h2 className="font-bold md:text-4xl text-3xl">Send me a message</h2>
+          <h2 className="font-normal md:text-4xl text-3xl">{traslation.Subtitle}</h2>
           <form
             className="flex flex-col gap-5 mt-5 w-full"
             ref={form}
             onSubmit={sendEmail}
           >
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
-              Name
+            {traslation.Name}
               <input
               required
                 name="nombre"
@@ -126,7 +126,7 @@ export default function Contact() {
               />
             </label>
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
-              Message
+            {traslation.Mesagge}
               <input
               required
                 type="text"
@@ -138,7 +138,8 @@ export default function Contact() {
               type="submit"
               className="bg-violet-800 text-white w-20 p-2 self-end rounded-3xl hover:bg-violet-600 transition-all duration-200"
             >
-              Send
+                          {traslation.Send}
+
             </button>
           </form>
         </section>
