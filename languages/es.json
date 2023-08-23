@@ -1,15 +1,16 @@
 {
   "Header": {
     "greeting": "Hola",
-    "im": "Yo soy",
-    "description": "Soy un desarrollador web Full Stack con pasión por aprender y aplicar mis conocimientos. Soy altamente enfocado y adaptable, con dedicación para entregar soluciones de alta calidad que satisfagan las necesidades únicas de cada proyecto. Estoy ansioso por desarrollar aún más mis habilidades y crecer profesionalmente en la industria de TI."
+    "im": "Soy",
+    "description": "Soy un desarrollador web Full Stack con pasión por aprender y aplicar mis conocimientos. Soy altamente enfocado y adaptable, con dedicación para entregar soluciones de alta calidad que satisfagan las necesidades únicas de cada proyecto. Estoy ansioso por desarrollar aún más mis habilidades y crecer profesionalmente en la industria de TI.",
+    "Connect" : "Contactame"
   },
   "AboutMe": {
     "title": {
       "item1": "Sobre",
       "item2": "Mí"
     },
-    "im": "Yo soy",
+    "im": "Soy",
     "about": "Tengo un profundo entusiasmo por fusionar la creatividad de React para interfaces modernas con el poder escalable de Node.js en el backend. Con experiencia en proyectos independientes y un enfoque colaborativo, asumo los desafíos técnicos y de diseño con determinación. Siempre busco soluciones innovadoras mientras me mantengo al día con las últimas tendencias, esforzándome por crear experiencias web excepcionales y contribuir a proyectos de vanguardia.",
     "skills": {
       "title": "Habilidades",
@@ -39,7 +40,7 @@
     },
     "description": {
       "item1": "Mi formación profesional se está desarrollando en",
-      "item2": ", donde estoy persiguiendo una licenciatura en Ingeniería de Sistemas. A través de este camino educativo, estoy adquiriendo las habilidades esenciales para abordar los desafíos en constante evolución en el campo de la tecnología y la informática."
+      "item2": ", donde estoy cursando la carrera de Ingeniería de Sistemas. A través de este camino educativo, estoy adquiriendo las habilidades esenciales para abordar los desafíos en constante evolución en el campo de la tecnología y la informática."
     },
     "courses": {
       "title": "Cursos",

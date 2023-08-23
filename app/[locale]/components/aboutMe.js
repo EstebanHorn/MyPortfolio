@@ -21,7 +21,7 @@ export default function AboutMe() {
           <h1 className="md:text-6xl text-5xl py-2 font-normal text-left">
             {t('title.item1')} <tag className="text-violet-800 font-bold">{t('title.item2')}</tag>{" "}
           </h1>
-          <h2 className="md:text-2xl">
+          <h2 className="md:text-2xl text-xl">
           {t('im')} <tag className="font-bold tracking-wide">Esteban Horn</tag> |
             FullStack Developer
           </h2>

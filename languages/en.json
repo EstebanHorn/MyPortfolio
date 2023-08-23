@@ -2,7 +2,8 @@
     "Header": {
       "greeting": "Hi there",
       "im": "I'm",
-      "description": "I'm a passionate Full Stack web developer with a drive to learn and apply my skills. I am highly focused and adaptable, dedicated to delivering high-quality solutions that meet the unique needs of each project. I am eager to further develop my skills and grow professionally in the IT industry."
+      "description": "I'm a passionate Full Stack web developer with a drive to learn and apply my skills. I am highly focused and adaptable, dedicated to delivering high-quality solutions that meet the unique needs of each project. I am eager to further develop my skills and grow professionally in the IT industry.",
+      "Connect" : "Connect whit me"
     },
     "AboutMe": {
       "title": {
