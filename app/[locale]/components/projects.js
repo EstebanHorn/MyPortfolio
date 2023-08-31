@@ -29,7 +29,7 @@ export default function Porojects() {
           <Image src={summoners} className="h-full object-cover" alt="Summoners Handbook screenshot"/>
         </Link>
         <Link href="https://movies-b3476.web.app/" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
-        <h2 className="text-xl font-bold group-hover:text-violet-800 transition-all duration-200">Movies page</h2>
+        <h2 className="text-xl font-bold group-hover:text-violet-800 transition-all duration-200">Movies App</h2>
 
           <Image src={movies} className="h-full object-cover" alt="movies app screenshot"/>
           
