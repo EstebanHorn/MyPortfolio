@@ -6,12 +6,11 @@ import {
   AiOutlineCode,
   AiOutlineMessage,
 } from "react-icons/ai";
-import {usePathname} from 'next-intl/client';
+
 
 export default function Navbar() {
-  const path = usePathname()
   return (
-    <nav className="md:h-[50%] w-[90%] right-[5%] bottom-3 md:bottom-auto bg-violet-800 fixed md:right-5 md:top-[25%] md:w-11 rounded-3xl md:py-10 px-5 text-white">
+    <nav className="z-20 md:h-[50%] w-[90%] right-[5%] bottom-3 md:bottom-auto bg-violet-800 fixed md:right-5 md:top-[25%] md:w-11 rounded-3xl md:py-10 px-5 text-white">
       <ul className="flex md:flex-col flex-row items-center md:gap-10 gap-2 justify-around text-xl h-full">
         <li className="md:w-auto w-full">
           <a

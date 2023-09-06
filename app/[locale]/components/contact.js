@@ -1,15 +1,17 @@
 "use client";
-import { useRef } from "react";
-import emailjs from '@emailjs/browser'
-import Swal from 'sweetalert2'
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 import Link from "next/link";
 import {
   AiOutlineWhatsApp,
   AiOutlineLinkedin,
   AiOutlineMail,
   AiOutlineGithub,
+  AiFillCheckCircle,
 } from "react-icons/ai";
-export default function Contact({traslation}) {
+export default function Contact({ traslation }) {
+  const [sended, setSended] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,28 +26,30 @@ export default function Contact({traslation}) {
       )
       .then(
         (result) => {
-            Swal.fire({
-                title: 'Succses!',
-                text: 'Mensaje enviado!',
-                icon: 'success',
-              })
+          Swal.fire({
+            title: "Succses!",
+            text: "Mensaje enviado!",
+            icon: "success",
+          });
+          setSended(true);
         },
         (error) => {
-            Swal.fire({
-                title: 'Error!',
-                text: 'El mensaje no se pudo enviar',
-                icon: 'error',
-              })
+          Swal.fire({
+            title: "Error!",
+            text: "El mensaje no se pudo enviar",
+            icon: "error",
+          });
         }
       );
   };
   return (
     <section
-      className="w-full flex flex-col items-center md:h-screen md:p-10 md:pr-20 p-5 md:my-0 my-16"
+      className="w-full flex flex-col items-center justify-center md:h-screen md:p-10 md:pr-20 p-5 md:my-0 my-16"
       id="contact"
     >
       <h1 className="md:text-6xl text-5xl font-normal md:text-right text-center">
-        {traslation.Title1}{' '}<tag className="text-violet-800 font-bold">{traslation.Title2}</tag>
+        {traslation.Title1}{" "}
+        <tag className="text-violet-800 font-bold">{traslation.Title2}</tag>
       </h1>
       <div className="flex md:flex-row flex-col w-full justify-around mt-16">
         <section className="md:w-1/4">
@@ -101,16 +105,18 @@ export default function Contact({traslation}) {
           </div>
         </section>
         <section className="md:w-1/2 md:mt-0 mt-10 flex flex-col items-center justify-center">
-          <h2 className="font-normal md:text-4xl text-3xl">{traslation.Subtitle}</h2>
+          <h2 className="font-normal md:text-4xl text-3xl">
+            {traslation.Subtitle}
+          </h2>
           <form
             className="flex flex-col gap-5 mt-5 w-full"
             ref={form}
             onSubmit={sendEmail}
           >
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
-            {traslation.Name}
+              {traslation.Name}
               <input
-              required
+                required
                 name="nombre"
                 type="text"
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
@@ -119,28 +125,33 @@ export default function Contact({traslation}) {
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
               Email
               <input
-              required
+                required
                 name="email"
                 type="email"
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
               />
             </label>
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
-            {traslation.Mesagge}
+              {traslation.Mesagge}
               <input
-              required
+                required
                 type="text"
                 name="mensaje"
                 className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-violet-800 pl-2"
               />
             </label>
-            <button
-              type="submit"
-              className="bg-violet-800 text-white w-20 p-2 self-end rounded-3xl hover:bg-violet-600 transition-all duration-200"
-            >
-                          {traslation.Send}
-
-            </button>
+            {!sended ? (
+              <button
+                type="submit"
+                className="bg-violet-800 text-white w-20 p-2 self-end rounded-3xl hover:bg-violet-600 transition-all duration-200"
+              >
+                {traslation.Send}
+              </button>
+            ) : (
+              <div className="self-end ">
+                <AiFillCheckCircle className=" text-5xl text-violet-800 " />
+              </div>
+            )}
           </form>
         </section>
       </div>

@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 
 
 export default function Porojects() {
-  const t = useTranslations("Projects");
+  const t = useTranslations("Projects"); 
 
   return (
     <section

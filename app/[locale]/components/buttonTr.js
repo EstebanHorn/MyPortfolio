@@ -9,7 +9,7 @@ export default function ButtonTr() {
 const router = useRouter();
  
   return (
-    <div className="dropdown text-black fixed md:right-5 top-3 right-2 md:top-24 w-11 rounded-3xl ">
+    <div className="dropdown text-black fixed md:right-5 top-3 right-2 md:top-24 w-11 rounded-3xl z-20 ">
       <label className="btn py-1 bg-violet-700  px-2 text-2xl" tabIndex="0">
         <FaLanguage className="" />
       </label>
