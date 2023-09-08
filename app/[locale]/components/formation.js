@@ -6,7 +6,7 @@ export default function Formation() {
 
   return (
     <section
-      className="w-full flex md:flex-col items-center flex-col md:gap-20 gap-10 md:h-screen md:p-20  p-5 md:my-0 my-10"
+      className="min-w-full min-h-screen flex md:flex-col items-center flex-col md:gap-20 gap-10  md:p-20  p-5 md:my-0 justify-center"
       id="formation"
     >
       <section className="md:w-full flex flex-col justify-center gap-2">

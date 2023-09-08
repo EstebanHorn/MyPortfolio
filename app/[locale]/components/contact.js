@@ -44,7 +44,7 @@ export default function Contact({ traslation }) {
   };
   return (
     <section
-      className="w-full flex flex-col items-center justify-center md:h-screen md:p-10 md:pr-20 p-5 md:my-0 my-16"
+      className="min-w-full flex flex-col items-center justify-center md:h-screen md:p-10 md:pr-20 p-5 md:my-0 my-16"
       id="contact"
     >
       <h1 className="md:text-6xl text-5xl font-normal md:text-right text-center">
