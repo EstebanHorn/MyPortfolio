@@ -15,7 +15,7 @@ export default function AboutMe() {
 
   return (
     <main
-      className="w-full md:gap-10 gap-5 md:p-20 md:h-screen  md:my-0 my-10 p-5 flex flex-col justify-between"
+      className="w-full md:gap-10 gap-5 md:p-20 md:min-h-screen  md:my-0 my-10 p-5 flex flex-col justify-between"
       id="aboutMe"
     >
       <section className="flex md:flex-row 2xl:flex-col flex-col gap-14">

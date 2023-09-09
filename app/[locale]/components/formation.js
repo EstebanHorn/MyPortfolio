@@ -6,7 +6,7 @@ export default function Formation() {
 
   return (
     <section
-      className="min-w-full min-h-screen flex md:flex-col items-center flex-col md:gap-20 gap-10  md:p-20  p-5 md:my-0 justify-center"
+      className="min-w-full min-h-screen flex md:flex-col flex-col md:gap-20 gap-10  md:p-20  p-5 md:my-0 justify-center"
       id="formation"
     >
       <section className="md:w-full flex flex-col justify-center gap-2">
@@ -27,7 +27,7 @@ export default function Formation() {
       </section>
       <section className="md:full flex flex-col justify-center gap-2">
         <h2 className="md:text-6xl text-5xl font-bold">{t("courses.title")}</h2>
-        <ul className="flex mt-3 flex-wrap  gap-2">
+        <ul className="flex mt-3 flex-wrap  gap-4">
           <li className="md:w-[49%] w-full relative pb-10 group p-5 gap-5 flex flex-col items-start bg-slate-100 hover:bg-slate-50 hover:scale-[1.03] hover:-translate-y-2 transition-all duration-300">
             <h1 className="font-bold text-xl group-hover:text-violet-800">
               Argentina Programa
