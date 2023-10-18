@@ -43,7 +43,7 @@ export default function Porojects() {
           <Image src={roma} className="h-full object-cover" alt="roma studio app screenshot"/>
            
         </Link>
-        <Link href="https://mah-construcciones.vercel.app/" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
+        <Link href="https://www.techosyservicios.com.ar/" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
         <h2 className="text-lg font-bold group-hover:text-violet-800 transition-all duration-200">MAH Construcciones</h2>
           <Image src={mah} className="h-full object-cover" alt="PalabraDeHoy app screenshot"/>
         </Link>
