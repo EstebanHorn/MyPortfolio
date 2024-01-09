@@ -5,6 +5,7 @@ import summoners from "../assets/summoners.png";
 import movies from "../assets/movies.png";
 import mah from "../assets/mah.png";
 import verse from "../assets/verse.png";
+import retrorides from "../assets/retrorides.png";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -51,7 +52,10 @@ export default function Porojects() {
         <h2 className="text-lg font-bold group-hover:text-violet-800 transition-all duration-200">PalabraDeHoy</h2>
           <Image src={verse} className="h-full object-cover" alt="PalabraDeHoy app screenshot"/>
         </Link>
-     
+        <Link href="https://www.retrorides.com.ar/" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
+        <h2 className="text-lg font-bold group-hover:text-violet-800 transition-all duration-200">Retro Rides</h2>
+          <Image src={retrorides} className="h-full object-cover" alt="PalabraDeHoy app screenshot"/>
+        </Link>
       </section>
     </section>
   );
