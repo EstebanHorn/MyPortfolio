@@ -49,7 +49,7 @@ export default function Contact({ traslation }) {
     >
       <h1 className="md:text-6xl text-5xl font-normal md:text-right text-center">
         {traslation.Title1}{" "}
-        <tag className="text-sky-800 font-bold">{traslation.Title2}</tag>
+        <tag className="text-blue-800 font-bold">{traslation.Title2}</tag>
       </h1>
       <div className="flex md:flex-row flex-col w-full justify-around mt-16">
         <section className="md:w-1/4">
@@ -119,7 +119,7 @@ export default function Contact({ traslation }) {
                 required
                 name="nombre"
                 type="text"
-                className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-sky-800 pl-2"
+                className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-blue-800 pl-2"
               />
             </label>
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
@@ -128,7 +128,7 @@ export default function Contact({ traslation }) {
                 required
                 name="email"
                 type="email"
-                className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-sky-800 pl-2"
+                className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-blue-800 pl-2"
               />
             </label>
             <label className="flex flex-col md:text-lg text-base font-bold gap-1">
@@ -137,19 +137,19 @@ export default function Contact({ traslation }) {
                 required
                 type="text"
                 name="mensaje"
-                className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-sky-800 pl-2"
+                className="bg-slate-100 outline-none py-1 focus-visible:bg-slate-50 focus-visible:outline-2 focus-visible:outline-blue-800 pl-2"
               />
             </label>
             {!sended ? (
               <button
                 type="submit"
-                className="bg-sky-800 text-white w-20 p-2 self-end rounded-3xl hover:bg-sky-600 transition-all duration-200"
+                className="bg-blue-800 text-white w-20 p-2 self-end rounded-3xl hover:bg-blue-600 transition-all duration-200"
               >
                 {traslation.Send}
               </button>
             ) : (
               <div className="self-end ">
-                <AiFillCheckCircle className=" text-5xl text-sky-800 " />
+                <AiFillCheckCircle className=" text-5xl text-blue-800 " />
               </div>
             )}
           </form>

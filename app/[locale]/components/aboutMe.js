@@ -22,7 +22,7 @@ export default function AboutMe() {
         <div className="md:w-2/3 flex flex-col gap-2">
           <h1 className="md:text-6xl text-5xl py-2 font-normal text-left">
             {t("title.item1")}{" "}
-            <tag className="text-sky-800 font-bold">{t("title.item2")}</tag>{" "}
+            <tag className="text-blue-800 font-bold">{t("title.item2")}</tag>{" "}
           </h1>
           <h2 className="md:text-2xl text-xl">
             {t("im")}{" "}
@@ -35,7 +35,7 @@ export default function AboutMe() {
         </div>
         <div className="md:w-1/4 2xl:w-1/2  flex flex-col items-center gap-2 ">
           <div className="w-full">
-            <h3 className="md:text-4xl text-2xl py-2 font-bold text-left text-sky-800">
+            <h3 className="md:text-4xl text-2xl py-2 font-bold text-left text-blue-800">
               {t("skills.title")}
             </h3>
             <h4 className="font-bold md:text-base text-sm">
@@ -65,7 +65,7 @@ export default function AboutMe() {
               <BiLogoNodejs className="hover:text-green-700 hover:scale-110 duration-200 transition-all" />
             </li>
             <li className="m-auto md:m-0">
-              <SiMysql className="hover:text-sky-700 hover:scale-110 duration-200 transition-all" />
+              <SiMysql className="hover:text-blue-700 hover:scale-110 duration-200 transition-all" />
             </li>
             <li className="m-auto md:m-0">
               <BiLogoMongodb className="hover:text-green-600 hover:scale-110 duration-200 transition-all" />
@@ -79,7 +79,7 @@ export default function AboutMe() {
       </section>
   <section>
   <div className="flex flex-col mt-10 md:mt-0">
-        <h1 className="md:text-6xl text-5xl py-2 font-bold text-left text-sky-800">
+        <h1 className="md:text-6xl text-5xl py-2 font-bold text-left text-blue-800">
           {t("services.title")}
         </h1>
         <h3 className="font-bold md:text-base text-sm">
@@ -89,7 +89,7 @@ export default function AboutMe() {
       <ul className="md:w-2/3 grid md:grid-cols-3 gap-5 mt-10 select-none">
         <li className="p-5 group text-left bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-2 transition-all duration-300">
           <div className="w-full flex justify-between">
-            <h4 className="text-xl font-bold group-hover:text-sky-800">
+            <h4 className="text-xl font-bold group-hover:text-blue-800">
               {t("services.plan1.title")}
             </h4>
             <MdSignalCellularAlt1Bar className="text-xl" />
@@ -105,7 +105,7 @@ export default function AboutMe() {
 
         <li className="p-5 group text-left bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-2 transition-all duration-300">
           <div className="w-full flex justify-between">
-            <h4 className="text-xl font-bold group-hover:text-sky-800">
+            <h4 className="text-xl font-bold group-hover:text-blue-800">
               {t("services.plan2.title")}
             </h4>
             <MdSignalCellularAlt2Bar className="text-xl" />
@@ -120,7 +120,7 @@ export default function AboutMe() {
         </li>
         <li className="p-5 group text-left bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-2 transition-all duration-300">
           <div className="w-full flex justify-between">
-            <h4 className="text-xl font-bold group-hover:text-sky-800">
+            <h4 className="text-xl font-bold group-hover:text-blue-800">
               {t("services.plan3.title")}
             </h4>
             <MdSignalCellularAlt className="text-xl" />
