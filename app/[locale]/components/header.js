@@ -10,9 +10,9 @@ export default function Header() {
       <section className="md:w-1/2 flex flex-col items-start justify-center gap-2 md:p-20 p-5">
         <h2 className="md:text-5xl text-3xl font-light">{t("greeting")}</h2>
         <h1 className="md:text-7xl text-5xl tracking-wider">
-          {t("im")} <tag className="text-violet-800 font-bold">Esteban</tag>
+          {t("im")} <tag className="text-sky-800 font-bold">Esteban</tag>
         </h1>
-        <h4 className="md:text-xl text-sm bg-violet-800 p-1 px-2 text-white">
+        <h4 className="md:text-xl text-sm bg-sky-800 p-1 px-2 text-white">
           Full Stack Developer
         </h4>
         <p
@@ -22,7 +22,7 @@ export default function Header() {
           {t("description")}
         </p>
         <a
-          className="md:text-base text-sm p-2 px-4 bg-violet-800 rounded-3xl text-white mt-1 hover:bg-violet-600 transition-all duration-200"
+          className="md:text-base text-sm p-2 px-4 bg-sky-800 rounded-3xl text-white mt-1 hover:bg-sky-600 transition-all duration-200"
           href="/#contact"
         >
           {t("Connect")}
