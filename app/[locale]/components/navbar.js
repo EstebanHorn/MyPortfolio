@@ -10,7 +10,7 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="z-20 md:h-[50%] w-[90%] right-[5%] bottom-3 md:bottom-auto bg-blue-800 fixed md:right-5 md:top-[25%] md:w-11 rounded-3xl md:py-10 px-5 text-white">
+    <nav className="z-20 md:h-[50%] w-[90%] right-[5%] bottom-3 md:bottom-auto bg-blue-700 fixed md:right-5 md:top-[25%] md:w-11 rounded-3xl md:py-10 px-5 text-white">
       <ul className="flex md:flex-col flex-row items-center md:gap-10 gap-2 justify-around text-xl h-full">
         <li className="md:w-auto w-full">
           <a

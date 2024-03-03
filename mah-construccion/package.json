@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "mah-construccion",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,18 +10,16 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@vercel/analytics": "^1.0.2",
-    "autoprefixer": "10.4.14",
+    "@react-email/render": "^0.0.7",
+    "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
-    "eslint-config-next": "13.4.13",
-    "next": "^13.5.6",
-    "next-intl": "^3.0.0-beta.10",
+    "eslint-config-next": "13.4.16",
+    "next": "13.4.16",
+    "nodemailer": "^6.9.4",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
-    "rippleui": "^1.12.1",
-    "sweetalert2": "^11.6.13",
+    "sweetalert2": "^11.7.23",
     "tailwindcss": "3.3.3"
   }
 }

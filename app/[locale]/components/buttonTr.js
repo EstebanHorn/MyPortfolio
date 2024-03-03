@@ -9,12 +9,12 @@ export default function ButtonTr() {
 const router = useRouter();
  
   return (
-    <div className="dropdown text-black fixed md:right-5 top-3 right-2 md:top-24 w-11 rounded-3xl z-20 ">
-      <label className="btn py-1 bg-blue-700  px-2 text-2xl" tabIndex="0">
+    <div className="dropdown text-black fixed md:right-5 top-3 right-2 md:top-24 w-11 rounded-3xl z-20">
+      <label className="btn py-1 bg-blue-700 hover:bg-blue-500 px-2 text-2xl" tabIndex="0">
         <FaLanguage className="" />
       </label>
       <div className="dropdown-menu md:dropdown-menu-left dropdown-menu-left-bottom w-20 flex bg-white border border-gray-10">
-        <a className="dropdown-item text-sm flex items-center hover:bg-gray-50 hover:text-blue-800  hover:scale-105 transition-all duration-200">
+        <a className="dropdown-item text-sm flex items-center hover:bg-gray-50 hover:text-blue-700  hover:scale-105 transition-all duration-200">
           {" "}
           <button onClick={() => {router.replace(pathname, {locale: 'en'});}}>
             <h1>English</h1>
@@ -22,7 +22,7 @@ const router = useRouter();
         </a>
         <a
           tabIndex="-1"
-          className="dropdown-item text-sm items-center hover:bg-gray-50 hover:text-blue-800  hover:scale-105 transition-all duration-200"
+          className="dropdown-item text-sm items-center hover:bg-gray-50 hover:text-blue-700  hover:scale-105 transition-all duration-200"
         >
           <button onClick={() => {router.replace(pathname, {locale: 'es'});}}>
             <h1>Español</h1>
