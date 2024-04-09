@@ -4,7 +4,7 @@ import Contact from "./components/contact";
 import Formation from "./components/formation";
 import Header from "./components/header";
 import Navbar from "./components/navbar";
-import Porojects from "./components/projects";
+import Projects from "./components/projects";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
@@ -24,8 +24,8 @@ export default function Home() {
       <Header />
       <Navbar />
       <AboutMe />
+      <Projects />
       <Formation />
-      <Porojects />
       <Contact traslation={contactTr} />
     </main>
   );

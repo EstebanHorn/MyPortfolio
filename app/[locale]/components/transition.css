@@ -1,0 +1,23 @@
+
+
+/*
+Quiero que cuando se vea el div con id #me, se mueva hasta el div con id #me2. esto 
+mediante que se vaya scrollando la pagina hacia abajo. usando view-timeline
+*/
+
+@media (min-width: 1000px) {
+    #me {
+        animation: scrollAnimation auto linear; /* Adjust the duration as needed */
+        animation-timeline: scroll(root block);
+    }    
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(150vh);
+        scale: 0.7; /* Adjust this value according to the position of #me2 */
+    }
+}

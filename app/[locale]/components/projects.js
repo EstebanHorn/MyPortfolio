@@ -13,7 +13,7 @@ export default function Porojects() {
 
   return (
     <section
-      className="w-full flex flex-col md:min-h-screen md:p-10 md:pr-20 md:gap-10 p-5 gap-10 md:my-0 my-10"
+      className="w-full flex flex-col md:min-h-screen md:p-20 md:gap-10 p-5 gap-10 md:my-0 my-10"
       id="projects"
     >
       <h1 className="md:text-6xl text-5xl md:text-start text-center">

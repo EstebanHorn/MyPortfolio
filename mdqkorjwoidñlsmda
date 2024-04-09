@@ -1,0 +1,131 @@
+[33mcommit 81b207aab00b3150a86dd5c68e23dfab7f86e29b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Esteban Horn <estebanhxrn@gmail.com>
+Date:   Sat Mar 2 21:08:59 2024 -0300
+
+    change colors
+
+[33mcommit 96d9e41f317d283b5d3e1bc51bab015bc66f2d61[m
+Author: Esteban Horn <87593390+EstebanHorn@users.noreply.github.com>
+Date:   Sat Mar 2 20:46:56 2024 +0000
+
+    color blue
+
+[33mcommit bc9f2ee93f6db9bd94a4943c6e623fa4b4c1a1aa[m
+Author: Esteban Horn <87593390+EstebanHorn@users.noreply.github.com>
+Date:   Sat Mar 2 20:41:23 2024 +0000
+
+    Change color
+
+[33mcommit 378f58cc0d2acc685f125712f02eb0797c19536e[m
+Author: Esteban Horn <87593390+EstebanHorn@users.noreply.github.com>
+Date:   Sat Feb 24 20:25:38 2024 -0300
+
+    Update projects.js
+
+[33mcommit 9af4256712bd2e27ef92373dbb98f9ccbfcef7bc[m
+Author: Esteban Horn <estebanhxrn@gmail.com>
+Date:   Tue Jan 9 00:33:37 2024 -0300
+
+    add new project
+
+[33mcommit 2abd65bd8cfaa9d57888743fcc394fdafc2da6de[m
+Author: Esteban Horn <87593390+EstebanHorn@users.noreply.github.com>
+Date:   Wed Oct 18 15:46:53 2023 -0300
+
+    Update projects.js
+
+[33mcommit e0fafa342d5d878e142b53c46fd0bc494718f058[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Sat Sep 9 01:44:27 2023 -0300
+
+    add proyects
+
+[33mcommit 4d810fe20b460e13b5d28704ffd962c2ad901d86[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Fri Sep 8 03:18:43 2023 -0300
+
+    height formation
+
+[33mcommit e3f1bdeb2b37ff427785dedddf67e4795a8b44c8[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Wed Sep 6 02:26:38 2023 -0300
+
+    better ux/ui
+
+[33mcommit fc7999266348561016e4a561bf2769efb1fe90ea[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Thu Aug 31 13:09:03 2023 -0300
+
+    title movies
+
+[33mcommit d3958f9430b6f4a35d4e78cc31c53968309461d2[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Wed Aug 23 12:33:07 2023 -0300
+
+    fix tr
+
+[33mcommit b2613fbb202c44b9fff61468c26776d0947f7515[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Wed Aug 16 22:24:00 2023 -0300
+
+    trastations
+
+[33mcommit e54f5069b091bfacaf5f29b3c42ebcfb5f453a72[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Wed Aug 16 14:41:47 2023 -0300
+
+    fullstack
+
+[33mcommit cf16a1fb631b634321acc29b1fef9980e34849a3[m
+Author: Esteban Horn <estebanhxrm@gmail.com>
+Date:   Wed Aug 16 12:07:06 2023 -0300
+
+    form required
+
+[33mcommit 055eb366e2bd37db1c9d735dff6deeb84d6d1904[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sun Aug 13 00:32:47 2023 -0300
+
+    fix gap
+
+[33mcommit 51ab665dcd8dc59bb97f4c3981f723e67e8b5006[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 23:40:39 2023 -0300
+
+    analytics
+
+[33mcommit c0291eaedb1b40514299f0c621ec4b326e3bf49c[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 23:11:45 2023 -0300
+
+    navbar fix
+
+[33mcommit ecf7900de141cf9517287be06fdb183438825e56[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 23:05:17 2023 -0300
+
+    favicon
+
+[33mcommit a6f031d42be33e41f659a24f24b0623dce2cc702[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 22:44:04 2023 -0300
+
+    fix responsive
+
+[33mcommit b6c67f18d834e626cd7bd9ecf6386444f0c460ae[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 21:44:24 2023 -0300
+
+    first commit
+
+[33mcommit b21e99b8a451b591c27da7bcf78702e0cbd92768[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 21:40:19 2023 -0300
+
+    first commit
+
+[33mcommit c5b86ef73eecc530fdd11b22b4e75b58eac71c5a[m
+Author: EstebanHorn <estebanhxrn@gmail.com>
+Date:   Sat Aug 12 13:02:36 2023 -0300
+
+    Initial commit from Create Next App

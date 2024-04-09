@@ -1,6 +1,7 @@
 import Image from "next/image";
 import me from "../assets/yo.jpg";
 import { useTranslations } from "next-intl";
+import  "./transition.css"
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -29,6 +30,7 @@ export default function Header() {
         </a>
       </section>
       <Image
+        id="me"
         className="md:w-1/2 w-full h-full object-cover"
         src={me}
         alt="esteban pic"
