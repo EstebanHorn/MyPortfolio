@@ -64,6 +64,18 @@ export default function Formation() {
               {t("courses.certificate")}
             </a>
           </li>
+          <li className="md:w-[49%] w-full group p-5 pb-10 gap-5 flex flex-col items-start relative bg-slate-100 hover:bg-slate-50 hover:scale-[1.03] hover:-translate-y-2 transition-all duration-300">
+            <h1 className="font-bold text-xl group-hover:text-blue-700">
+              Ui/Ux{" "}
+            </h1>
+            <p className="md:text-sm text-xs">{t("courses.course4")}</p>
+            <a
+              href=""
+              className="text-blue-700 hover:text-blue-600 transition-all duration-200 absolute font-bold bottom-3 right-3"
+            >
+              {t("courses.certificate")}
+            </a>
+          </li>
         </ul>
       </section>
     </section>
