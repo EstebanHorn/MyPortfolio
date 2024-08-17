@@ -31,17 +31,17 @@ export default function Navbar() {
         <li className="md:w-auto w-full">
           <a
             className="hover:bg-blue-500 transition-all duration-200 w-full p-2 rounded-full flex justify-center"
-            href="#formation"
+            href="#projects"
           >
-            <AiOutlineBook />
+            <AiOutlineCode />
           </a>
         </li>
         <li className="md:w-auto w-full">
           <a
             className="hover:bg-blue-500 transition-all duration-200 w-full p-2 rounded-full flex justify-center"
-            href="#projects"
+            href="#formation"
           >
-            <AiOutlineCode />
+            <AiOutlineBook />
           </a>
         </li>
         <li className="md:w-auto w-full">
