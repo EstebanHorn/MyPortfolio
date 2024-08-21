@@ -55,7 +55,7 @@ export default function Porojects() {
         <h2 className="text-lg font-bold group-hover:text-blue-700 transition-all duration-200">Weather v2</h2>
           <Image src={weatherv2} className="h-full object-cover" alt="PalabraDeHoy app screenshot"/>
         </Link>
-        <Link href="https://weather-v2-nine.vercel.app/" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
+        <Link href="https://github.com/EstebanHorn/Password" className="flex flex-col items-center gap-4 pt-2 group bg-slate-100 hover:bg-slate-50 hover:scale-105 hover:-translate-y-1  transition-all duration-200">
         <h2 className="text-lg font-bold group-hover:text-blue-700 transition-all duration-200">Golang Password</h2>
           <Image src={golang_password} className="h-full object-cover" alt="PalabraDeHoy app screenshot"/>
         </Link>
