@@ -70,7 +70,7 @@ export default function Formation() {
             </h1>
             <p className="md:text-sm text-xs">{t("courses.course4")}</p>
             <a
-              href=""
+              href="https://drive.google.com/file/d/1iH0QggFFiqP4vzgzHal5G_zv-iMg7tvs/view"
               className="text-blue-700 hover:text-blue-600 transition-all duration-200 absolute font-bold bottom-3 right-3"
             >
               {t("courses.certificate")}
