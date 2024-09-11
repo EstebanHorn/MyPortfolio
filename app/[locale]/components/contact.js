@@ -19,7 +19,7 @@ export default function Contact({ traslation }) {
 
     emailjs
       .sendForm(
-        "service_4h9ie0i",
+        "service_5oir9za",
         "template_l5iq4s4",
         form.current,
         "TEE5ZQkqnry-y19pI"
